@@ -1,0 +1,12 @@
+## table属性
+- border-collapse 指定边框是否合并
+    - separate  默认
+    - collapse  合并
+- table-layout 固定或自动宽度
+    - fixed 列宽由表格宽度和列宽度设定
+    - auto  默认，列宽度由单元格内容设定。
+- caption-side 标题的位置
+    - top
+    - left
+    - right
+    - bottom
