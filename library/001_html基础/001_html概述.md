@@ -49,7 +49,7 @@ html是一种规范，一种标准，通过标记符号来标记要显示的内�
 
 【注意】浏览器按顺序阅读html文件，通过html中的标记符来解析并显示其标记的内容，对书写错误的标记并不会指出，而且不会中断解析过程，我们只能通过显示效果来判断出错原因及出错部位。
 #### 2. html发展历程
-![image](http://note.youdao.com/yws/api/personal/file/FD29CB28897F4EC898E6185D1212451B?method=download&shareKey=ccbaec1d47a306ba277ce59d759ad73b)
+![image](amWiki/images/html_develop.jpg)
 ##### html  （超文本标记语言）
 用一些标记符号来标记网页中要显示的内容。初始阶段我们用的是html4.01版本，该版本语法结构比较松散，要求不是很严格，标签不闭合，大小写不注意，引号运用不严格。
 
