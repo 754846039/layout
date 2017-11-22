@@ -10,6 +10,7 @@ overflow:auto;    /* 自动调整，超出时才出现滚动条 */
 overflow-x:hidden;/* 只对横向超出的内容进行设置 */
 overflow-y:hidden;/* 只对纵向超出的内容进行设置 */
 ```
+###### 【 overflow-x:hidden 和 overflow-y:visible 】不能同时使用，overflow-y:visible 会失效变为 overflow-y:auto。
 
 ## display属性
 ```css
