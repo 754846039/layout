@@ -60,6 +60,14 @@
       gb2312的扩展版本
 
 ## meta标签详解
+####  renderer
+```html
+<!--
+360浏览器默认调用极速模式
+ -->
+<meta name="renderer" content="webkit">
+```
+
 #### viewport
 ```html
 <!--
