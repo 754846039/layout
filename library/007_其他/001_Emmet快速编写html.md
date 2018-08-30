@@ -30,7 +30,8 @@
 ```
 
 #### 生成带有 id 、class 的 HTML 标签
-CSS选择器在块级元素中默认的HTML标签为div，在内联级元素中为span，而对于HTML一些特殊的标签：ul li、table tr td，将会生成对应的内部标签。
+> CSS选择器在块级元素中默认的HTML标签为div，在内联级元素中为span，而对于HTML一些特殊的标签：ul li、table tr td，将会生成对应的内部标签。
+
 ##### ==【Eg】==
 ```HTML
 .className
@@ -43,7 +44,7 @@ div#idName
 
 #idName.className
 div#idName.className
-
+<div id="idName" class="className"></div>
 ```
 
 #### 生成后代（子标签）：>
@@ -55,6 +56,19 @@ div>ul>li
         <li></li>
     </ul>
 </div>
+
+div>.son
+<div>
+	<div class="son"></div>
+</div>
+
+em>.son
+<em><span class="son"></span></em>
+
+ul>.item
+<ul>
+	<li class="item"></li>
+</ul>
 ```
 
 #### 生成兄弟：+
@@ -137,32 +151,32 @@ a[href="http://www.baidu.com" title="百度"]
 ```HTML
 ul>li.item$*2
 <ul>
-	<li class="item1"></li>
-	<li class="item2"></li>
+  <li class="item1"></li>
+  <li class="item2"></li>
 </ul>
 
 ul>li.item$$$*2
 <ul>
-	<li class="item001"></li>
-	<li class="item002"></li>
+  <li class="item001"></li>
+  <li class="item002"></li>
 </ul>
 
 ul>li.item$@-*2
 <ul>
   <li class="item2"></li>
-	<li class="item1"></li>
+  <li class="item1"></li>
 </ul>
 
 ul>li.item$@3*2
 <ul>
-	<li class="item3"></li>
-	<li class="item4"></li>
+  <li class="item3"></li>
+  <li class="item4"></li>
 </ul>
 
 ul>li.item$@-5*2
 <ul>
   <li class="item6"></li>
-	<li class="item5"></li>
+  <li class="item5"></li>
 </ul>
 ```
 
