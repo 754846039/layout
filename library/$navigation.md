@@ -17,7 +17,10 @@
 - [html5新标签](?file=002_html5/002_html5新标签 "html5新标签")
 - [html5表单](?file=002_html5/003_html5表单 "html5表单")
 - [媒体标签](?file=002_html5/004_媒体标签 "媒体标签")
-- [svg可伸缩性图形](?file=002_html5/005_svg可伸缩性图形 "svg可伸缩性图形")
+- **svg可伸缩性图形**
+    - [svg概念](?file=002_html5/005_svg可伸缩性图形/001_svg概念 "svg概念")
+    - [svg形状](?file=002_html5/005_svg可伸缩性图形/002_svg形状 "svg形状")
+    - [svg属性和样式](?file=002_html5/005_svg可伸缩性图形/003_svg属性和样式 "svg属性和样式")
 - [本地离线存储](?file=002_html5/006_本地离线存储 "本地离线存储")
 - [canvas绘画元素](?file=002_html5/007_canvas绘画元素 "canvas绘画元素")
 - [其他](?file=002_html5/008_其他 "其他")
