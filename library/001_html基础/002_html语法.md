@@ -28,6 +28,12 @@
 6. 头元素中的标签
 ```html
 <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE,chrome=1" />
+	  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+	  <meta name="renderer" content="webkit" />
+	  <meta name="apple-mobile-web-app-capable" content="yes">
+	  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	  <script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
     <meta name="keywords" content="关键词1,关键词2"/>
     <meta name="description" content="本篇网页的概述，一段话，对网
     站的进一步描述"/>
@@ -60,6 +66,14 @@
       gb2312的扩展版本
 
 ## meta标签详解
+#### X-UA-Compatible
+```html
+<!--
+IE=edge告诉IE使用最新的引擎渲染网页，chrome=1则可以激活Chrome Frame.
+ -->
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+```
+
 ####  renderer
 ```html
 <!--
@@ -121,3 +135,11 @@ content有两个值"yes"和"no"
 | :----:| :----:|
 | black | 状态栏背景为黑色 |
 | black-translucent | 状态栏背景为灰色 |
+
+#### robots
+```html
+<!--
+告诉爬虫该页面上所有链接都无需追踪
+ -->
+<meta name="robots" content="nofollow" />
+```
