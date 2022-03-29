@@ -20,3 +20,5 @@
 [ [https://754846039.github.io/app/index.html](https://754846039.github.io/app/index.html) ]
 #### 常用工具
 [ [https://754846039.github.io/developTools/index.html](https://754846039.github.io/developTools/index.html) ]
+#### 开发规范
+[ [https://754846039.github.io/standard/index.html](https://754846039.github.io/standard/index.html) ]
